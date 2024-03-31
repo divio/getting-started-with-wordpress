@@ -1,28 +1,24 @@
 services:
   web:
     build: .
-    restart: always
     ports:
       - 8000:80
-    environment:
-      WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: exampleuser
-      WORDPRESS_DB_PASSWORD: examplepass
-      WORDPRESS_DB_NAME: exampledb
     volumes:
-      - wordpress:/var/www/html
-
-  db:
-    image: mysql:8.0
-    restart: always
+      - ./:/var/www/html
     environment:
-      MYSQL_DATABASE: exampledb
-      MYSQL_USER: exampleuser
-      MYSQL_PASSWORD: examplepass
+      DATABASE_URL: mysql://root@database_default:3306/db
+    links:
+      - database_default
+    restart: always
+
+  database_default:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: "db"
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
     volumes:
-      - db:/var/lib/mysql
+      - "database-default:/var/lib/mysql"
 
 volumes:
   wordpress:
-  db:
+  database-default:
