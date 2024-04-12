@@ -1,24 +1,26 @@
 services:
   web:
     build: .
-    ports:
-      - 8000:80
-    volumes:
-      - ./:/var/www/html
     environment:
       DATABASE_URL: mysql://root@database_default:3306/db
     links:
       - database_default
+    ports:
+      - 8000:80
     restart: always
+    volumes:
+      - ./src:/var/www/html
+      - ./vendor:/var/www/html/vendor
+      - ./composer.json:/var/www/html/composer.json
+      - ./composer.lock:/var/www/html/composer.lock
 
   database_default:
     image: mysql:8.0
     environment:
-      MYSQL_DATABASE: "db"
-      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: db
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
     volumes:
-      - "database-default:/var/lib/mysql"
+      - database-default:/var/lib/mysql
 
 volumes:
-  wordpress:
   database-default:
