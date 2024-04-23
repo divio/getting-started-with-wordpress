@@ -19,5 +19,6 @@ Alternatively, build this app locally using Docker:
 1. Ensure [Docker](https://docs.docker.com/get-docker/) is installed and running.
 2. Clone this repository locally.
 3. Build the app with `docker compose build`.
-4. Run the app using `docker compose up`.
-5. Open [http://localhost:8000]() to view your app.
+4. Install dependencies using `docker compose run --rm web composer install`.
+5. Run the app using `docker compose up`.
+6. Open [http://localhost:8000]() to view your app.
