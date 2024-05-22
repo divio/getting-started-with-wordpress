@@ -678,7 +678,7 @@
     },
     {
       "name": "johnpbloch/wordpress-core",
-      "version": "6.5.2",
+      "version": "6.5.3",
       "source": {
         "type": "git",
         "url": "https://github.com/johnpbloch/wordpress-core.git",
@@ -695,7 +695,7 @@
         "php": ">=7.0.0"
       },
       "provide": {
-        "wordpress/core-implementation": "6.5.2"
+        "wordpress/core-implementation": "6.5.3"
       },
       "type": "wordpress-core",
       "notification-url": "https://packagist.org/downloads/",
