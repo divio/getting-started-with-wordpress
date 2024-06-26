@@ -8,16 +8,16 @@
   "packages": [
     {
       "name": "aws/aws-crt-php",
-      "version": "v1.2.4",
+      "version": "v1.2.6",
       "source": {
         "type": "git",
         "url": "https://github.com/awslabs/aws-crt-php.git",
-        "reference": "eb0c6e4e142224a10b08f49ebf87f32611d162b2"
+        "reference": "a63485b65b6b3367039306496d49737cf1995408"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/eb0c6e4e142224a10b08f49ebf87f32611d162b2",
-        "reference": "eb0c6e4e142224a10b08f49ebf87f32611d162b2",
+        "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/a63485b65b6b3367039306496d49737cf1995408",
+        "reference": "a63485b65b6b3367039306496d49737cf1995408",
         "shasum": ""
       },
       "require": {
@@ -56,22 +56,22 @@
       ],
       "support": {
         "issues": "https://github.com/awslabs/aws-crt-php/issues",
-        "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.4"
+        "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.6"
       },
-      "time": "2023-11-08T00:42:13+00:00"
+      "time": "2024-06-13T17:21:28+00:00"
     },
     {
       "name": "aws/aws-sdk-php",
-      "version": "3.305.0",
+      "version": "3.314.8",
       "source": {
         "type": "git",
         "url": "https://github.com/aws/aws-sdk-php.git",
-        "reference": "6992342acf7dd4501163c6cddabe76c74f2020ad"
+        "reference": "cec444ca2e86dade32886d586ac55838779e2ae2"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6992342acf7dd4501163c6cddabe76c74f2020ad",
-        "reference": "6992342acf7dd4501163c6cddabe76c74f2020ad",
+        "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cec444ca2e86dade32886d586ac55838779e2ae2",
+        "reference": "cec444ca2e86dade32886d586ac55838779e2ae2",
         "shasum": ""
       },
       "require": {
@@ -151,22 +151,22 @@
       "support": {
         "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
         "issues": "https://github.com/aws/aws-sdk-php/issues",
-        "source": "https://github.com/aws/aws-sdk-php/tree/3.305.0"
+        "source": "https://github.com/aws/aws-sdk-php/tree/3.314.8"
       },
-      "time": "2024-04-22T18:07:07+00:00"
+      "time": "2024-06-25T18:13:28+00:00"
     },
     {
       "name": "composer/installers",
-      "version": "v2.2.0",
+      "version": "v2.3.0",
       "source": {
         "type": "git",
         "url": "https://github.com/composer/installers.git",
-        "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35"
+        "reference": "12fb2dfe5e16183de69e784a7b84046c43d97e8e"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/composer/installers/zipball/c29dc4b93137acb82734f672c37e029dfbd95b35",
-        "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35",
+        "url": "https://api.github.com/repos/composer/installers/zipball/12fb2dfe5e16183de69e784a7b84046c43d97e8e",
+        "reference": "12fb2dfe5e16183de69e784a7b84046c43d97e8e",
         "shasum": ""
       },
       "require": {
@@ -174,12 +174,12 @@
         "php": "^7.2 || ^8.0"
       },
       "require-dev": {
-        "composer/composer": "1.6.* || ^2.0",
-        "composer/semver": "^1 || ^3",
-        "phpstan/phpstan": "^0.12.55",
-        "phpstan/phpstan-phpunit": "^0.12.16",
-        "symfony/phpunit-bridge": "^5.3",
-        "symfony/process": "^5"
+        "composer/composer": "^1.10.27 || ^2.7",
+        "composer/semver": "^1.7.2 || ^3.4.0",
+        "phpstan/phpstan": "^1.11",
+        "phpstan/phpstan-phpunit": "^1",
+        "symfony/phpunit-bridge": "^7.1.1",
+        "symfony/process": "^5 || ^6 || ^7"
       },
       "type": "composer-plugin",
       "extra": {
@@ -236,6 +236,7 @@
         "cockpit",
         "codeigniter",
         "concrete5",
+        "concreteCMS",
         "croogo",
         "dokuwiki",
         "drupal",
@@ -282,7 +283,7 @@
       ],
       "support": {
         "issues": "https://github.com/composer/installers/issues",
-        "source": "https://github.com/composer/installers/tree/v2.2.0"
+        "source": "https://github.com/composer/installers/tree/v2.3.0"
       },
       "funding": [
         {
@@ -298,7 +299,7 @@
           "type": "tidelift"
         }
       ],
-      "time": "2022-08-20T06:45:11+00:00"
+      "time": "2024-06-24T20:46:46+00:00"
     },
     {
       "name": "guzzlehttp/guzzle",
@@ -678,16 +679,16 @@
     },
     {
       "name": "johnpbloch/wordpress-core",
-      "version": "6.5.3",
+      "version": "6.5.5",
       "source": {
         "type": "git",
         "url": "https://github.com/johnpbloch/wordpress-core.git",
-        "reference": "bf083fe2944a4683461d496086ec22319cd8bdf1"
+        "reference": "be6edfa018053533267a16e73f6623b0fa27b2df"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/bf083fe2944a4683461d496086ec22319cd8bdf1",
-        "reference": "bf083fe2944a4683461d496086ec22319cd8bdf1",
+        "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/be6edfa018053533267a16e73f6623b0fa27b2df",
+        "reference": "be6edfa018053533267a16e73f6623b0fa27b2df",
         "shasum": ""
       },
       "require": {
@@ -695,7 +696,7 @@
         "php": ">=7.0.0"
       },
       "provide": {
-        "wordpress/core-implementation": "6.5.3"
+        "wordpress/core-implementation": "6.5.5"
       },
       "type": "wordpress-core",
       "notification-url": "https://packagist.org/downloads/",
@@ -722,7 +723,7 @@
         "source": "https://core.trac.wordpress.org/browser",
         "wiki": "https://codex.wordpress.org/"
       },
-      "time": "2024-04-09T21:20:55+00:00"
+      "time": "2024-06-24T17:24:47+00:00"
     },
     {
       "name": "johnpbloch/wordpress-core-installer",
@@ -898,20 +899,20 @@
     },
     {
       "name": "psr/http-factory",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "source": {
         "type": "git",
         "url": "https://github.com/php-fig/http-factory.git",
-        "reference": "e616d01114759c4c489f93b099585439f795fe35"
+        "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/php-fig/http-factory/zipball/e616d01114759c4c489f93b099585439f795fe35",
-        "reference": "e616d01114759c4c489f93b099585439f795fe35",
+        "url": "https://api.github.com/repos/php-fig/http-factory/zipball/2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
+        "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
         "shasum": ""
       },
       "require": {
-        "php": ">=7.0.0",
+        "php": ">=7.1",
         "psr/http-message": "^1.0 || ^2.0"
       },
       "type": "library",
@@ -935,7 +936,7 @@
           "homepage": "https://www.php-fig.org/"
         }
       ],
-      "description": "Common interfaces for PSR-7 HTTP message factories",
+      "description": "PSR-17: Common interfaces for PSR-7 HTTP message factories",
       "keywords": [
         "factory",
         "http",
@@ -947,9 +948,9 @@
         "response"
       ],
       "support": {
-        "source": "https://github.com/php-fig/http-factory/tree/1.0.2"
+        "source": "https://github.com/php-fig/http-factory"
       },
-      "time": "2023-04-10T20:10:41+00:00"
+      "time": "2024-04-15T12:06:14+00:00"
     },
     {
       "name": "psr/http-message",
@@ -1050,16 +1051,16 @@
     },
     {
       "name": "symfony/deprecation-contracts",
-      "version": "v3.4.0",
+      "version": "v3.5.0",
       "source": {
         "type": "git",
         "url": "https://github.com/symfony/deprecation-contracts.git",
-        "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf"
+        "reference": "0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/7c3aff79d10325257a001fcf92d991f24fc967cf",
-        "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf",
+        "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1",
+        "reference": "0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1",
         "shasum": ""
       },
       "require": {
@@ -1068,7 +1069,7 @@
       "type": "library",
       "extra": {
         "branch-alias": {
-          "dev-main": "3.4-dev"
+          "dev-main": "3.5-dev"
         },
         "thanks": {
           "name": "symfony/contracts",
@@ -1097,7 +1098,7 @@
       "description": "A generic function and convention to trigger deprecation notices",
       "homepage": "https://symfony.com",
       "support": {
-        "source": "https://github.com/symfony/deprecation-contracts/tree/v3.4.0"
+        "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.0"
       },
       "funding": [
         {
@@ -1113,20 +1114,20 @@
           "type": "tidelift"
         }
       ],
-      "time": "2023-05-23T14:45:45+00:00"
+      "time": "2024-04-18T09:32:20+00:00"
     },
     {
       "name": "symfony/polyfill-mbstring",
-      "version": "v1.29.0",
+      "version": "v1.30.0",
       "source": {
         "type": "git",
         "url": "https://github.com/symfony/polyfill-mbstring.git",
-        "reference": "9773676c8a1bb1f8d4340a62efe641cf76eda7ec"
+        "reference": "fd22ab50000ef01661e2a31d850ebaa297f8e03c"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/9773676c8a1bb1f8d4340a62efe641cf76eda7ec",
-        "reference": "9773676c8a1bb1f8d4340a62efe641cf76eda7ec",
+        "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fd22ab50000ef01661e2a31d850ebaa297f8e03c",
+        "reference": "fd22ab50000ef01661e2a31d850ebaa297f8e03c",
         "shasum": ""
       },
       "require": {
@@ -1177,7 +1178,7 @@
         "shim"
       ],
       "support": {
-        "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.29.0"
+        "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.30.0"
       },
       "funding": [
         {
@@ -1193,7 +1194,7 @@
           "type": "tidelift"
         }
       ],
-      "time": "2024-01-29T20:11:03+00:00"
+      "time": "2024-06-19T12:30:46+00:00"
     }
   ],
   "packages-dev": [],
