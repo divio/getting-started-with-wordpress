@@ -10,7 +10,7 @@ WORKDIR /var/www/html
 RUN apt-get update -y && apt-get install -y openssl zip unzip git
 
 # install composer
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+COPY --from=builder /usr/bin/composer /usr/bin/composer
 
 # install wordpress cli
 RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar \
