@@ -2,7 +2,7 @@
   "type": "project",
   "require": {
     "php": ">=8.2",
-    "johnpbloch/wordpress-core": "^6.5",
+    "johnpbloch/wordpress-core": "^6.7",
     "johnpbloch/wordpress-core-installer": "^2.0",
     "humanmade/s3-uploads": "^3.0"
   },
